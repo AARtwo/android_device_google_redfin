@@ -219,14 +219,6 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     AvoidAppsInCutoutOverlay
 
-# F-Droid
-PRODUCT_PACKAGES += \
-    F-DroidPrivilegedExtension
-    
-# BCR
-PRODUCT_PACKAGES += \
-    BCR
-
 # Include the redfin product FCM.
 # Vendor Freeze system-only builds use a different FCM.
 ifneq ($(PRODUCT_VENDOR_FREEZE_SYSTEM_BUILD),true)
