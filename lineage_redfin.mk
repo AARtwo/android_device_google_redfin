@@ -29,6 +29,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/redfin/redfin:14/UP1A.231105.001.B2/11260668:user/release-keys
 
 $(call inherit-product, vendor/google/redfin/redfin-vendor.mk)
-
-#add priv8 keys for signing builds
--include vendor/lineage-priv/keys/keys.mk
