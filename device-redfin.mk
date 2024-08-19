@@ -223,9 +223,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     F-DroidPrivilegedExtension
     
-# BCR
+# Basic Call Recorder
 PRODUCT_PACKAGES += \
     BCR
+
+# Lawnchair
+PRODUCT_PACKAGES += \
+    Lawnchair
 
 # Include the redfin product FCM.
 # Vendor Freeze system-only builds use a different FCM.
