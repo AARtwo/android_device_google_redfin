@@ -227,10 +227,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BCR
 
-# Lawnchair
-PRODUCT_PACKAGES += \
-    Lawnchair
-
 # Include the redfin product FCM.
 # Vendor Freeze system-only builds use a different FCM.
 ifneq ($(PRODUCT_VENDOR_FREEZE_SYSTEM_BUILD),true)
